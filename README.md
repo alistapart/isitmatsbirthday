@@ -1,4 +1,4 @@
-isitmatsbirthday
+Is it Mat's birthday?
 ================
 
-Is it Mat's birthday?
+Probably.
