@@ -4,9 +4,15 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Is it Mat “Daniel” Marquis’ birthday?</title>
 
-<link rel="stylesheet" href="/css/yesitismatsbirthday.css" />
+<?php
+    $f_contents = file("nicknames.txt"); 
+    $line = $f_contents[rand(0, count($f_contents) - 1)];
+?>
+
+<title>Is it Mat “<?php echo $line ?>” Marquis’ birthday?</title>
+
+<link rel="stylesheet" href="css/yesitismatsbirthday.css" />
 
 </head>
 <body>
@@ -15,7 +21,7 @@
 
     <p class="greeting">You should wish <a href="http://twitter.com/wilto">@wilto</a> a happy birthday!</p>
     
-    <p>Add <a href="mat.ics">Mat “Daniel” Marquis’ birthday</a> to your calendar!</p>
+    <p>Add <a href="mat.ics">Mat “<?php echo $line ?>” Marquis’ birthday</a> to your calendar!</p>
     
     <p>Mat’s <a href="http://www.amazon.com/registry/giftlist/3ELRFFQC2AOD6/ref=cm_sw_r_tw_gln">Amazon Wish List</a>!</p>
     
