@@ -1,3 +1,9 @@
+<?php 
+
+if(strlen(strstr($_SERVER['HTTP_USER_AGENT'],"curl")) <= 0 ){ // if not a curl request
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,3 +56,12 @@
 
 </body>
 </html>
+
+<?php } else {
+
+set_time_limit(0);
+sleep(1); ?>
+
+Yes.
+
+<?php } ?>
