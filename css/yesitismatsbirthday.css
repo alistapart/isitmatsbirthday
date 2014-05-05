@@ -77,6 +77,11 @@ font-family: "ShowcaseSansMini", sans-serif;
 font-size: 2em;
 }
 
+p.heads {
+	margin-top: 3em;
+}
+
+
 p b {
 background-color: #f6c894;
 color: #603913;
@@ -86,6 +91,25 @@ vertical-align: baseline;
 padding: 0 0.25em 0.125em;
 border-radius: 0.125em;
 margin-right: 0.25em;
+}
+
+acronym {
+	border-bottom: 1px dotted rgba(255,255,255,.7);
+	cursor: help;
+}
+
+code {
+	display: inline-block;
+	padding-left: 1em;
+	font-size: .7em;
+	color: #fff;
+}
+
+code:before {
+	content: '$';
+	display: inline-block;
+	margin-right: .4em;
+	color: #f6c894;
 }
 
 img.head {
