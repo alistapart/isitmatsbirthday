@@ -167,3 +167,21 @@ text-shadow: 0 1px 0 #CCC,
          0 50px 25px rgba(0, 0, 0, .2);
 }
 }
+
+@media only screen and (min-width: 121.5em) and (min-height: 60em) {
+
+	html {height: 100%; width: 100%; overflow: hidden;}
+
+	body {display: table; height: 100%; width: 100%; overflow: hidden;}
+
+	body:before, body:after {display: none;}
+
+	h1 {display: table-cell; vertical-align: middle; margin: 0; font-size: 32em; position: relative;}
+
+	h1:before {position: absolute; width: 100%; text-align: center; top: 20%;}
+
+	aside {position: absolute; bottom: 0; left: 0; text-align: center; width: 100%;}
+
+	aside p {font-size: 1.6em; width: 8.5em; margin: 1em 1.4em; vertical-align: bottom; display: inline-block;}
+
+}
