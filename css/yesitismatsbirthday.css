@@ -189,6 +189,6 @@ text-shadow: 0 1px 0 #CCC,
 
 	aside {position: absolute; bottom: 0; left: 0; text-align: center; width: 100%;}
 
-	aside p {font-size: 1.6em; width: 8.5em; margin: 1em 1.4em; vertical-align: bottom; display: inline-block;}
+	aside p {font-size: 1.6em; width: 9em; margin: 1em 1.4em .2em; vertical-align: top; display: inline-block;}
 
 }
