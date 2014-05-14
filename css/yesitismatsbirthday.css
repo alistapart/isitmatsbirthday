@@ -168,7 +168,7 @@ text-shadow: 0 1px 0 #CCC,
 }
 }
 
-@media only screen and (min-width: 121.5em) and (min-height: 60em) {
+@media only screen and (min-width: 84.375em) and (min-height: 60em) {
 
 	html {height: 100%; width: 100%; overflow: hidden;}
 
